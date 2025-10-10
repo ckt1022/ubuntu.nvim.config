@@ -21,6 +21,7 @@ vim.api.nvim_create_autocmd("BufLeave", {
 
 -- 在普通模式下使用 Ctrl+S 保存文件
 vim.api.nvim_set_keymap('n', '<C-s>', ':w<CR>', { noremap = true, silent = true })
+
 -- 在插入模式下使用 Ctrl+S 保存文件，退出插入模式执行保存
 vim.api.nvim_set_keymap('i', '<C-s>', '<Esc>:w<CR>i', { noremap = true, silent = true })
 

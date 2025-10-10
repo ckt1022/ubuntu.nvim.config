@@ -10,12 +10,13 @@ require('bufferline').setup {
         modified_icon = ' ',
         show_buffer_icons = true,
         show_buffer_close_icons = true,      	-- 显示每个缓冲区的关闭图标
-        show_close_icon = false,             	-- 不显示整体的关闭图标
+        show_close_icon = true,             	-- 不显示整体的关闭图标
         show_tab_indicators = true,
         separator_style = "slant",
         enforce_regular_tabs = true,
         always_show_bufferline = true,
         sort_by = 'insert_after_current'
     }
+
 }
 

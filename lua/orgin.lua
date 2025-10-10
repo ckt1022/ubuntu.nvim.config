@@ -21,3 +21,8 @@ require('lualine_set')
 require('treesitter')
 --模糊查找
 require('telescope')
+-- gitssigns -- 
+require('gitsigns_set')
+
+require('ufo')
+
